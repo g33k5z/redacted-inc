@@ -33,7 +33,7 @@ erDiagram
     }
 
     CLIENTS ||--o{ INVOICES : "billed"
-    INVOICES ||--o{ INVOICEITEMS : "includes"
+    INVOICES ||--|{ INVOICEITEMS : "includes"
     INVOICES ||--o{ PAYMENTS : "settled"
     INVOICES {
         int ID PK
