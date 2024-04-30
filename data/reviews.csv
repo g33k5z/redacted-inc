@@ -1,0 +1,12 @@
+ID,DocumentID,ReviewDate,ApprovalStatus
+1, 1, "2023-02-01", "Approved"
+2, 2, "2023-02-02", "Rejected"
+3, 3, "2023-02-03", "Approved"
+4, 4, "2023-02-04", "Rejected"
+5, 5, "2023-02-05", "Approved"
+6, 6, "2023-02-06", "Rejected"
+7, 7, "2023-02-07", "Approved"
+8, 8, "2023-02-08", "Rejected"
+9, 9, "2023-02-09", "Approved"
+10, 10, "2023-02-10", "Rejected"
+

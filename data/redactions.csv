@@ -1,0 +1,12 @@
+ID,DocumentID,RedactionType,Description,Status
+1, 1, "Name", "Remove co-author names", "Completed"
+2, 2, "Date", "Remove all dates", "Pending"
+3, 3, "Location", "Redact locations mentioned", "Completed"
+4, 4, "Sensitive", "Redact sensitive political opinions", "Pending"
+5, 5, "Personal", "Remove personal notes", "Completed"
+6, 6, "Personal", "Remove dedication page", "Pending"
+7, 7, "Sensitive", "Redact philosophical stances", "Completed"
+8, 8, "Name", "Remove dedications", "Pending"
+9, 9, "Date", "Redact publication date", "Completed"
+10, 10, "Location", "Redact geographic details", "Pending"
+

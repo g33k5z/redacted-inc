@@ -1,0 +1,12 @@
+ID,InvoiceID,Description,Amount,Quantity
+1, 1, "Document Redaction", 100, 2
+2, 2, "Document Review", 150, 1
+3, 3, "Redaction and Review", 150, 2
+4, 4, "Urgent Redaction Service", 250, 1
+5, 5, "Bulk Redaction Discount", 175, 2
+6, 6, "Review and Feedback", 110, 2
+7, 7, "Philosophical Redaction", 90, 2
+8, 8, "Musical Score Adjustment", 145, 2
+9, 9, "Algorithm Optimization", 155, 2
+10, 10, "Biological Detail Removal", 140, 2
+

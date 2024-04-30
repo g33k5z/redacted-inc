@@ -1,0 +1,12 @@
+ID,ClientID,DocumentType,SubmissionDate
+1, 1, "Physics Paper", "2023-01-01"
+2, 2, "Research Notes", "2023-01-02"
+3, 3, "Mathematics Paper", "2023-01-03"
+4, 4, "Political Treatise", "2023-01-04"
+5, 5, "Art Sketches", "2023-01-05"
+6, 6, "Novel Manuscript", "2023-01-06"
+7, 7, "Philosophy Essay", "2023-01-07"
+8, 8, "Music Scores", "2023-01-08"
+9, 9, "Computing Algorithm", "2023-01-09"
+10, 10, "Biology Paper", "2023-01-10"
+

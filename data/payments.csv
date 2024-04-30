@@ -1,0 +1,12 @@
+ID,InvoiceID,PaymentDate,Amount,PaymentMethod
+1, 1, "2023-04-01", 200, "Credit Card"
+2, 2, "2023-04-02", 150, "PayPal"
+3, 3, "2023-04-03", 300, "Bank Transfer"
+4, 4, "2023-04-04", 250, "Credit Card"
+5, 5, "2023-04-05", 350, "PayPal"
+6, 6, "2023-04-06", 220, "Bank Transfer"
+7, 7, "2023-04-07", 180, "Credit Card"
+8, 8, "2023-04-08", 290, "PayPal"
+9, 9, "2023-04-09", 310, "Bank Transfer"
+10, 10, "2023-04-10", 280, "Credit Card"
+

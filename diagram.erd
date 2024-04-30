@@ -1,0 +1,62 @@
+erDiagram
+
+    CLIENTS ||--o{ DOCUMENTS : "has"
+    CLIENTS {
+        int ID PK
+        string Name
+        string Email
+        string Phone
+    }
+
+    DOCUMENTS ||--o{ REDACTIONS : "undergoes"
+    DOCUMENTS ||--o{ REVIEWS : "reviewed"
+    DOCUMENTS {
+        int ID PK
+        int ClientID FK
+        string DocumentType
+        date SubmissionDate
+    }
+
+    REDACTIONS {
+        int ID PK
+        int DocumentID FK
+        string RedactionType
+        string Description
+        string Status
+    }
+
+    REVIEWS {
+        int ID PK
+        int DocumentID FK
+        date ReviewDate
+        string ApprovalStatus
+    }
+
+    CLIENTS ||--o{ INVOICES : "billed"
+    INVOICES ||--o{ INVOICEITEMS : "includes"
+    INVOICES ||--o{ PAYMENTS : "settled"
+    INVOICES {
+        int ID PK
+        int ClientID FK
+        date InvoiceDate
+        decimal TotalAmount
+        date DueDate
+        string PaymentStatus
+    }
+
+    INVOICEITEMS {
+        int ID PK
+        int InvoiceID FK
+        string Description
+        decimal Amount
+        int Quantity
+    }
+
+    PAYMENTS {
+        int ID PK
+        int InvoiceID FK
+        date PaymentDate
+        decimal Amount
+        string PaymentMethod
+    }
+

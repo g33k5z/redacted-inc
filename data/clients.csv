@@ -1,0 +1,12 @@
+ID,Name,Email,Phone
+1, "Albert Einstein", "aeinstein@example.com", "123-456-7890"
+2, "Marie Curie", "mcurie@example.com", "234-567-8901"
+3, "Isaac Newton", "inewton@example.com", "345-678-9012"
+4, "Cleopatra", "cleopatra@example.com", "456-789-0123"
+5, "Leonardo Da Vinci", "ldavinci@example.com", "567-890-1234"
+6, "Jane Austen", "jausten@example.com", "678-901-2345"
+7, "Mahatma Gandhi", "mgandhi@example.com", "789-012-3456"
+8, "Mozart", "mozart@example.com", "890-123-4567"
+9, "Ada Lovelace", "alovelace@example.com", "901-234-5678"
+10, "Charles Darwin", "cdarwin@example.com", "012-345-6789"
+
